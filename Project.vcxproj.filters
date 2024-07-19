@@ -85,6 +85,21 @@
     <Filter Include="Src\Application\GameObject\Chara">
       <UniqueIdentifier>{eaa57721-9fcb-4282-a479-7e410a8d95bc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Src\Application\GameObject\Chara\Player">
+      <UniqueIdentifier>{a30918bd-73a0-4215-9235-274e40aaa8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\GameObject\Chara\Enemy">
+      <UniqueIdentifier>{43585d1b-16e3-406f-80a2-9552dae385d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\GameObject\UI">
+      <UniqueIdentifier>{3580d1d9-a75a-4c9f-80ec-79b2b7affb6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\GameObject\Weapon">
+      <UniqueIdentifier>{0030f6da-6d1d-4a63-af92-18263f8eafbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Application\Utility">
+      <UniqueIdentifier>{a7f1a78c-57f2-4da0-ac4c-5c6560e4da46}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Pch.h">
@@ -264,6 +279,15 @@
     <ClInclude Include="Src\Application\GameObject\Chara\BaseChara.h">
       <Filter>Src\Application\GameObject\Chara</Filter>
     </ClInclude>
+    <ClInclude Include="Src\Application\GameObject\Chara\Player\Player.h">
+      <Filter>Src\Application\GameObject\Chara\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\GameObject\Chara\Enemy\BaseEnemy.h">
+      <Filter>Src\Application\GameObject\Chara\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Application\Utility\Utility.h">
+      <Filter>Src\Application\Utility</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Pch.cpp">
@@ -415,6 +439,12 @@
     </ClCompile>
     <ClCompile Include="Src\Application\GameObject\Chara\BaseChara.cpp">
       <Filter>Src\Application\GameObject\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\GameObject\Chara\Player\Player.cpp">
+      <Filter>Src\Application\GameObject\Chara\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Application\GameObject\Chara\Enemy\BaseEnemy.cpp">
+      <Filter>Src\Application\GameObject\Chara\Enemy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
